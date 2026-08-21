@@ -1,0 +1,20 @@
+{
+  "name": "dnd_dm_helper",
+  "version": "1.0.0",
+  "description": "D&D DM helper backend and web frontend",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "ws": "^8.19.0"
+  }
+}
+
